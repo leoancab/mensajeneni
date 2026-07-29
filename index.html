@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Para ti 💖</title>
+    <title>Para ti mi neni 💖</title>
 
     <style>
         body {
@@ -67,25 +67,26 @@
 <body>
 
     <div class="container">
-        <h1>Para ti ❤️</h1>
+        <h1>Para ti mi neni❤️</h1>
         <div id="texto"></div>
 
         <button onclick="iniciarTodo()">Abrir 💌</button>
     </div>
 
-    <!-- 🎵 Música -->
     <audio id="musica" src="cancion.mp3"></audio>
 
     <script>
         const mensaje = `Hola mi amor 💕,
 
-Quería hacer algo especial para ti...
+Quiero empezar diciéndote perdón… de verdad lo siento por haberte fallado. Sé que no he estado a la altura de lo que te mereces, y eso me duele porque tú eres lo más importante en mi vida
 
-Eres lo mejor que me ha pasado 🥺✨
+Eres lo mejor que me ha pasado, y no quiero que nunca dudes de lo mucho que me importas. Quiero que te sientas segura a mi lado, que sientas que conmigo tienes un futuro tranquilo, lleno de amor y confianza ❤️
 
-Gracias por estar conmigo siempre ❤️
+Todo lo que soy y todo lo que tengo es tuyo, porque tú eres todo para mí. No hay un día en que no agradezca tenerte en mi vida ✨
 
-Te amo muchísimo 💖`;
+Prometo seguir mejorando por nosotros y ser más presente. Pero sobre todo, prometo que siempre te voy a amar 💖
+
+Te amo muchísimo ❤️`;
 
         let i = 0;
 
@@ -98,13 +99,10 @@ Te amo muchísimo 💖`;
         }
 
         function iniciarTodo() {
-            // inicia música
             document.getElementById("musica").play();
 
-            // escribe texto
             escribir();
 
-            // genera corazones
             setInterval(crearCorazon, 300);
         }
 
